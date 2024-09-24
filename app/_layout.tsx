@@ -1,5 +1,5 @@
 import { Stack } from "expo-router";
-import Header from "@/components/header/header";
+import Header from "@/components/Header/header";
 
 export default function RootLayout() {
   return (
