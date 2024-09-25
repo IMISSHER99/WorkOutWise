@@ -1,7 +1,6 @@
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Image } from "react-native";
-import GoalList from "@/components/GoalList/goalList";
-import { useState } from "react";
+import GoalList from "@/components/GoalList/";
 
 const App = () => {
   return (

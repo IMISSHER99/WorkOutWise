@@ -4,17 +4,23 @@ import React from "react";
 
 interface OpenModalButtonProps {
   toggleOpenModal: () => void;
+  iconName: any;
+  color?: string;
+  size?: number;
 }
-const OpenModalButton: React.FC<OpenModalButtonProps> = ({
+const ToggleModalButton: React.FC<OpenModalButtonProps> = ({
   toggleOpenModal,
+  iconName,
+  color,
+  size,
 }) => {
   return (
     <Pressable onPress={toggleOpenModal}>
       <View>
-        <AntDesign name={"plus"} color={"white"} size={20} />
+        <AntDesign name={iconName} color={color} size={size} />
       </View>
     </Pressable>
   );
 };
 
-export default OpenModalButton;
+export default ToggleModalButton;
