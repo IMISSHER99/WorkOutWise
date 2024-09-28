@@ -27,17 +27,6 @@ const AddGoal: React.FC<AddGoalProps> = ({ modalVisible, toggleModal }) => {
             size={20}
           />
         </View>
-        <View
-          className={"flex flex-row items-center justify-between w-full pt-5"}
-        >
-          <Text
-            className={"text-white text-xl"}
-            style={{ fontFamily: "Poppins_600SemiBold" }}
-          >
-            Set your next milestone {"\n"}and{" "}
-            <Text className={"text-[#9767F8]"}>Achieve More!</Text>
-          </Text>
-        </View>
         <AddGoalForm />
       </View>
     </Modal>

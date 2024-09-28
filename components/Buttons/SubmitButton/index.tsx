@@ -4,13 +4,13 @@ interface SubmitButtonProps {
   onPress: () => void;
   children: React.ReactNode;
 }
-const SubmitButton: React.FC<SubmitButtonProps> = ({ children }) => {
+const SubmitButton: React.FC<SubmitButtonProps> = ({ children, onPress }) => {
   const [loaded, error] = useFonts({
     Poppins_600SemiBold,
   });
   return (
     <Pressable
-      onPress={() => {}}
+      onPress={onPress}
       className={
         "bg-[#B4FFDF] p-4 w-full flex items-center justify-center rounded-md"
       }
