@@ -1,7 +1,6 @@
 import { Modal, View, Text } from "react-native";
 import React from "react";
 import AddGoalForm from "@/components/Forms/AddGoalForm";
-import { Poppins_600SemiBold, useFonts } from "@expo-google-fonts/poppins";
 import ToggleModalButton from "@/components/Buttons/ToggleModalButton";
 
 interface AddGoalProps {
